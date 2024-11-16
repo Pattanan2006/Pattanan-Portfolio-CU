@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Portfolio a{
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+ display: flex;
+ list-style: none;
+ align-items: center;
+}
+
+.menu li{
+ margin: 0 1rem;
+}
+
+.menu li a{
+ color: #fff;
+ text-decoration: none;
+}
+
+.maincontent{
+    background-color: #e6e3e2;
+}
+
+.maincontent-con{
+    display: flex;
+}
+
+.maincontent-info{
+    width: 100;
+    padding: 2rem;
+}
+
+.maincontent-info h3{
+    font-size: 2rem;
+}
+
+.maincontent-info p{
+    margin: 1rem 0 ;
+    margin-bottom: 2rem;
+}
+
+.maincontent-info .maincontent-btn{
+    background-color: #ebb94e;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 7rem;
+}
+
+.maincontent-img{
+    width: 100;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.content-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    
+}
+
+.content-title{
+    margin: 2rem 0;
+}
+
+.content-item img{
+    width: 100%;
+}
+
+.content-item h6 {
+    margin-top: 1rem;
+}
+
+.content-item p{
+    margin: 1rem 0;
+}
+
+.content-item a{
+    display: inline-block;
+    color: #f7f4f4;
+    background-color: #ebb94e;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.footer-top{
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date{
+    background-color: #fff;
+    color: #1d1d1d;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h6,
+.footer-top-item:nth-child(3) h6{
+    margin-bottom: 1rem;
+}
+
+.footer-buttom{
+    background-color: #ebb94e;
+    color: #1d1d1d;
+    padding: 1rem;
+    text-align: center;
+}
